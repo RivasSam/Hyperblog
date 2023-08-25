@@ -7,7 +7,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  color: #333;
+  color: red;
   /* text-shadow: 1px 1px 1px #fff, -1px -1px 1px #fff; */
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
