@@ -6,10 +6,32 @@
 
 body {
   height: 100vh;
-  color: deeppink;
+  color: #333;
+  /* text-shadow: 1px 1px 1px #fff, -1px -1px 1px #fff; */
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   background-image: linear-gradient(to right top, #051937, #001b2c, #00191d, #051512, #0f100f);
   display: grid;
   place-content: center;
+}
+
+#container { 
+  width: 70%;
+  padding: 1em;
+  text-align: left;
+  border: 1px solid #ddd; 
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px 5px #000;
+  background: #ddddddbb;
+  display: grid;
+  place-content: center;
+}
+
+#post {
+  display: grid;
+  place-content: center;
+}
+
+#container h1 {
+  font-size: 20px;
 }
