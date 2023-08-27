@@ -11,7 +11,8 @@ body {
   /* text-shadow: 1px 1px 1px #fff, -1px -1px 1px #fff; */
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: linear-gradient(to right top, #051937, #001b2c, #00191d, #051512, #0f100f);
+  background: #111;
+  /* background-image: linear-gradient(to right top, #051937, #001b2c, #00191d, #051512, #0f100f); */
   display: flex;
   justify-content: center;
   align-items: start;
@@ -21,12 +22,13 @@ body {
 #container { 
   height: auto;
   width: 100%;
+  max-width: 700px;
   padding: 0;
   text-align: left;
   border: 1px solid #ddd; 
   /* border-radius: 10px; */
   /* box-shadow: 3px 3px 15px 5px #000; */
-  background: #ddddddbb;
+  background: #ffffff;
 
 }
 
@@ -43,6 +45,19 @@ body {
   /* border-radius: 10px; */
   margin-bottom: 25px;
   font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+#cabecera #logo {
+  width: 40px;
+  aspect-ratio: 1/1;
+  background: url("../imagenes/dragon.png");
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  margin-right: 15px;
 }
 
 #cabecera span {
@@ -56,5 +71,6 @@ body {
 }
 
 #container p {
-  padding: 0 10px 10px;
+  padding: 0 10px 10px 20px;
+  font-weight: thin;
 }
