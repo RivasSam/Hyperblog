@@ -23,7 +23,7 @@ body {
   width: 100%;
   padding: 0;
   text-align: left;
-  border: 1px solid #ddd; 
+  /* border: 1px solid #ddd;  */
   /* border-radius: 10px; */
   /* box-shadow: 3px 3px 15px 5px #000; */
   background: #ddddddbb;
@@ -57,4 +57,13 @@ body {
 
 #container p {
   padding: 0 10px 10px;
+}
+#footer {
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  padding: 15px;
 }
