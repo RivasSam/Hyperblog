@@ -29,7 +29,8 @@ body {
   /* border-radius: 10px; */
   /* box-shadow: 3px 3px 15px 5px #000; */
   background: #ffffff;
-
+  display: flex;
+  flex-direction: column;
 }
 
 #cabecera {
@@ -72,6 +73,19 @@ body {
 
 #container p {
   padding: 0 10px 10px;
+}
+
+#post {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.equipo {
+  width: 90%;
+  margin: 0 0 10px 0;
+  align-self: center;
+  justify-self: center;
 }
 
 #footer {
