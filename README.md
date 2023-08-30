@@ -20,3 +20,4 @@ Y como un amable recordatorio: **Este readme.md es un chiste**. Diseñado para e
 
 - Editado por samuelillo el pillo 
 - incluye ejemplos en WSL
+- Disponible en edades
