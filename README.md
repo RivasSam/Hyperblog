@@ -19,3 +19,4 @@ Un blog increíble para el curso de Git y Github de Platzi
 Y como un amable recordatorio: **Este readme.md es un chiste**. Diseñado para el ejemplo. Si llegas acá NO TE LO TOMES EN SERIO y mejor ve a ver el curso.
 
 - Editado por samuelillo el pillo 
+- incluye ejemplos en WSL
